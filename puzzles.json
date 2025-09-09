@@ -1,0 +1,32 @@
+
+{
+  "items": [
+    {
+      "title": "Sweet Tea Moon",
+      "price": 39,
+      "pieces": 150,
+      "size": "11.57x7.95 in",
+      "img": "assets/puzzles/IMG_6278.jpeg",
+      "tag": "Limited Run",
+      "active": true
+    },
+    {
+      "title": "Fair City",
+      "price": 49,
+      "pieces": 500,
+      "size": "20x28 in",
+      "img": "assets/sample2.jpg",
+      "tag": "Collector",
+      "active": true
+    },
+    {
+      "title": "Bayou Sauce",
+      "price": 45,
+      "pieces": 750,
+      "size": "18x24 in",
+      "img": "assets/sample3.jpg",
+      "tag": "New",
+      "active": true
+    }
+  ]
+}
