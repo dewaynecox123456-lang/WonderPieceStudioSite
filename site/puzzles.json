@@ -1,5 +1,65 @@
-﻿{
-    "items":  {
-
-              }
-}
+﻿[
+  {
+    "title": "Sweet Tea Moon",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Sweet_tea_moon.jpeg",
+    "tag": "Limited Run",
+    "active": true
+  },
+  {
+    "title": "Bayou Vibe",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Bayou_vibe.jpeg",
+    "tag": "New",
+    "active": true
+  },
+  {
+    "title": "Fair City",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Fair_City.jpeg",
+    "tag": "Collector",
+    "active": true
+  },
+  {
+    "title": "Heron Dock",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Heron_dock.jpeg",
+    "tag": "Limited Run",
+    "active": true
+  },
+  {
+    "title": "Jesus Sunrise",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Jesus_sun-rise.jpeg",
+    "tag": "Special",
+    "active": true
+  },
+  {
+    "title": "Porch Night",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Porch_night.jpeg",
+    "tag": "New",
+    "active": true
+  },
+  {
+    "title": "Bayou Bridge",
+    "pieces": 150,
+    "size": "11.57 x 7.95 in",
+    "price": 12.00,
+    "img": "/site/puzzles/Bayou_bridge.jpeg",
+    "tag": "Limited Run",
+    "active": true
+  }
+]
