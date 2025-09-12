@@ -1,0 +1,30 @@
+﻿<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Checkout — Wonder Piece Studio</title>
+<link rel="stylesheet" href="../style.css">
+<div class="wrap" style="padding:24px 0">
+  <h2 style="font-weight:900;margin:0 0 8px">Checkout</h2>
+  <p class="muted">Choose a tip and pay via PayPal or Cash App.</p>
+  <div id="opts" class="grid"></div>
+  <p style="margin-top:16px"><a href="../">← Back</a></p>
+</div>
+<script>
+(async function(){
+  const cfg = await (await fetch('../config.json')).json();
+  const tips = cfg.tipPresets||[0,2,5,10];
+  const base = Number(cfg.basePrice||12);
+  const opts = document.getElementById('opts');
+  tips.forEach(t=>{
+    const total = (base + Number(t)).toFixed(2);
+    const card = document.createElement('div');
+    card.className='card';
+    card.innerHTML = \`
+      <div class='title'>\$ \${total} total</div>
+      <div class='meta'>Base \$\${base.toFixed(2)} + Tip \$\${Number(t).toFixed(2)}</div>
+      <div style='margin-top:8px;display:flex;gap:8px;flex-wrap:wrap'>
+        <a class='btn btn-primary' target='_blank' rel='noopener' href='https://www.paypal.com/ncp/payment/2'><span>PayPal</span></a>
+        \${cfg.cashapp?.enabled ? \`<a class='btn' target='_blank' rel='noopener' href='https://cash.app/\${cfg.cashapp.cashtag}'>Cash App</a>\` : ''}
+      </div>\`;
+    opts.appendChild(card);
+  });
+})();
+</script>

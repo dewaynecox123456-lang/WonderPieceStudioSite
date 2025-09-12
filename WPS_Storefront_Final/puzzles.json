@@ -1,0 +1,22 @@
+﻿{
+  "items": [
+    {
+      "title": "Sweet Tea Moon",
+      "price": 39,
+      "pieces": 500,
+      "size": "18x24 in",
+      "img": "assets/puzzles/sample1.jpg",
+      "tag": "Limited Run",
+      "active": true
+    },
+    {
+      "title": "Bayou Sauce",
+      "price": 45,
+      "pieces": 750,
+      "size": "18x24 in",
+      "img": "assets/puzzles/sample2.jpg",
+      "tag": "New",
+      "active": true
+    }
+  ]
+}

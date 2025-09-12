@@ -1,3 +1,0 @@
-# Ignore PowerShell scripts and local-scripts folder
-*.ps1
-local-scripts/
